@@ -11,6 +11,10 @@
 		7054000A264578F70087EE7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70540009264578F70087EE7C /* ContentView.swift */; };
 		7054000C264578F80087EE7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7054000B264578F80087EE7C /* Assets.xcassets */; };
 		7054000F264578F80087EE7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7054000E264578F80087EE7C /* Preview Assets.xcassets */; };
+		7054001C26457B020087EE7C /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = 7054001826457B020087EE7C /* covers.json */; };
+		7054001D26457B020087EE7C /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 7054001926457B020087EE7C /* animals.json */; };
+		7054001E26457B020087EE7C /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 7054001A26457B020087EE7C /* locations.json */; };
+		7054001F26457B020087EE7C /* videos.json in Resources */ = {isa = PBXBuildFile; fileRef = 7054001B26457B020087EE7C /* videos.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		7054000B264578F80087EE7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7054000E264578F80087EE7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		70540010264578F80087EE7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7054001826457B020087EE7C /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		7054001926457B020087EE7C /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
+		7054001A26457B020087EE7C /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		7054001B26457B020087EE7C /* videos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videos.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 		70540006264578F70087EE7C /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				7054001726457AF20087EE7C /* Data */,
 				70540007264578F70087EE7C /* AfricaApp.swift */,
 				70540009264578F70087EE7C /* ContentView.swift */,
 				7054000B264578F80087EE7C /* Assets.xcassets */,
@@ -59,6 +68,17 @@
 				7054000E264578F80087EE7C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7054001726457AF20087EE7C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7054001926457B020087EE7C /* animals.json */,
+				7054001826457B020087EE7C /* covers.json */,
+				7054001A26457B020087EE7C /* locations.json */,
+				7054001B26457B020087EE7C /* videos.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		7054FFFB264578F70087EE7C = {
@@ -127,7 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7054000F264578F80087EE7C /* Preview Assets.xcassets in Resources */,
+				7054001D26457B020087EE7C /* animals.json in Resources */,
+				7054001E26457B020087EE7C /* locations.json in Resources */,
+				7054001C26457B020087EE7C /* covers.json in Resources */,
 				7054000C264578F80087EE7C /* Assets.xcassets in Resources */,
+				7054001F26457B020087EE7C /* videos.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
