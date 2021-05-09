@@ -27,6 +27,7 @@
 		70D54E6226480C9C00FFEA7F /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D54E6126480C9C00FFEA7F /* AnimalDetailView.swift */; };
 		70D54E6526480FA000FFEA7F /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D54E6426480FA000FFEA7F /* HeadingView.swift */; };
 		70D54E682648188200FFEA7F /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D54E672648188200FFEA7F /* InsetGalleryView.swift */; };
+		70D54E6B26481B9700FFEA7F /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D54E6A26481B9700FFEA7F /* InsetFactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		70D54E6126480C9C00FFEA7F /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		70D54E6426480FA000FFEA7F /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		70D54E672648188200FFEA7F /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
+		70D54E6A26481B9700FFEA7F /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 				70D54E6126480C9C00FFEA7F /* AnimalDetailView.swift */,
 				70D54E6426480FA000FFEA7F /* HeadingView.swift */,
 				70D54E672648188200FFEA7F /* InsetGalleryView.swift */,
+				70D54E6A26481B9700FFEA7F /* InsetFactView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				7054000A264578F70087EE7C /* ContentView.swift in Sources */,
 				7054002D26457FD70087EE7C /* MainView.swift in Sources */,
 				70D54E4D2647F52C00FFEA7F /* CoverImageView.swift in Sources */,
+				70D54E6B26481B9700FFEA7F /* InsetFactView.swift in Sources */,
 				70D54E522647F7BA00FFEA7F /* CoverImageModel.swift in Sources */,
 				70D54E5B2648068800FFEA7F /* AnimalListItemView.swift in Sources */,
 				70D54E6226480C9C00FFEA7F /* AnimalDetailView.swift in Sources */,

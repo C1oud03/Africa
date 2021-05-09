@@ -54,9 +54,9 @@ struct AnimalDetailView: View {
                 
                 // FACTS
                 Group {
-                    HeadingView(headingImage: "questionmark.circle", headingText: "Did you know")
+                    HeadingView(headingImage: "questionmark.circle", headingText: "Did you know?")
                     
-                    InsetGalleryView(animal: animal)
+                    InsetFactView(animal: animal)
                 } //: GROUP
                 .padding(.horizontal)
                 
