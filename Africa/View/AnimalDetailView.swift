@@ -24,6 +24,7 @@ struct AnimalDetailView: View {
                     .resizable()
                     .scaledToFit()
                 
+                
                 // TITLE
                 Text(animal.name.uppercased())
                     .font(.largeTitle)
@@ -37,12 +38,14 @@ struct AnimalDetailView: View {
                             .offset(y: 24)
                     )
                 
+                
                 // HEADLINE
                 Text(animal.headline)
                     .font(.headline)
                     .multilineTextAlignment(.leading)
                     .foregroundColor(.accentColor)
                     .padding(.horizontal)
+                
                 
                 // GALLERY
                 Group {
@@ -52,6 +55,7 @@ struct AnimalDetailView: View {
                 } //: GROUP
                 .padding(.horizontal)
                 
+                
                 // FACTS
                 Group {
                     HeadingView(headingImage: "questionmark.circle", headingText: "Did you know?")
@@ -59,6 +63,7 @@ struct AnimalDetailView: View {
                     InsetFactView(animal: animal)
                 } //: GROUP
                 .padding(.horizontal)
+                
                 
                 // DESCRIPTION
                 Group {
@@ -69,10 +74,23 @@ struct AnimalDetailView: View {
                 } //: GROUP
                 .padding(.horizontal)
                 
+                
                 // MAP
+                Group {
+                    HeadingView(headingImage: "map", headingText: "National Parks")
+                    
+                    InsetMapView()
+                } //: GROUP
+                .padding(.horizontal)
                 
                 
                 // LINK
+                Group {
+                    HeadingView(headingImage: "books.vertical", headingText: "Learn More")
+                    
+                    ExternalWebLinkView(animal: animal)
+                } //: GROUP
+                .padding(.horizontal)
                 
                 
             } //: VSTACK
