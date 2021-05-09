@@ -49,11 +49,16 @@ struct AnimalDetailView: View {
                     HeadingView(headingImage: "photo.on.rectangle.angled", headingText: "Wilderness in Pictures")
                     
                     InsetGalleryView(animal: animal)
-                }
+                } //: GROUP
                 .padding(.horizontal)
                 
                 // FACTS
-                
+                Group {
+                    HeadingView(headingImage: "questionmark.circle", headingText: "Did you know")
+                    
+                    InsetGalleryView(animal: animal)
+                } //: GROUP
+                .padding(.horizontal)
                 
                 // DESCRIPTION
                 
