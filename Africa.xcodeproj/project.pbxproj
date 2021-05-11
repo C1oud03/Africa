@@ -26,6 +26,7 @@
 		7054002726457FB70087EE7C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054002626457FB70087EE7C /* MapView.swift */; };
 		7054002A26457FC60087EE7C /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054002926457FC60087EE7C /* GalleryView.swift */; };
 		7054002D26457FD70087EE7C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054002C26457FD70087EE7C /* MainView.swift */; };
+		70A588A0264A725100348056 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A5889F264A725100348056 /* AnimalGridItemView.swift */; };
 		70D54E4D2647F52C00FFEA7F /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D54E4C2647F52C00FFEA7F /* CoverImageView.swift */; };
 		70D54E522647F7BA00FFEA7F /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D54E512647F7BA00FFEA7F /* CoverImageModel.swift */; };
 		70D54E582647F8FE00FFEA7F /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D54E572647F8FE00FFEA7F /* CodableBundleExtension.swift */; };
@@ -61,6 +62,7 @@
 		7054002626457FB70087EE7C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		7054002926457FC60087EE7C /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		7054002C26457FD70087EE7C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		70A5889F264A725100348056 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		70D54E4C2647F52C00FFEA7F /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		70D54E512647F7BA00FFEA7F /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		70D54E572647F8FE00FFEA7F /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				7038674826496C2900A41598 /* VideoPlayerView.swift */,
 				703867522649756600A41598 /* MapAnnotationView.swift */,
 				7038675526497AB800A41598 /* MotionAnimationView.swift */,
+				70A5889F264A725100348056 /* AnimalGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				7054002426457F870087EE7C /* VideoListView.swift in Sources */,
 				70386743264962CC00A41598 /* VideoModel.swift in Sources */,
 				703867502649716600A41598 /* LocationModel.swift in Sources */,
+				70A588A0264A725100348056 /* AnimalGridItemView.swift in Sources */,
 				7054002A26457FC60087EE7C /* GalleryView.swift in Sources */,
 				70D54E682648188200FFEA7F /* InsetGalleryView.swift in Sources */,
 				70D54E582647F8FE00FFEA7F /* CodableBundleExtension.swift in Sources */,
